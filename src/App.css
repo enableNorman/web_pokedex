@@ -1,0 +1,299 @@
+.App {
+  background-color: green;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Main{
+  width: 100%; 
+  height: 100%;
+}
+
+.Header{
+  background-color: red;
+  width: 100%;
+  height: 7%;
+  display: flex;
+  flex-direction: row;
+}
+
+.imagemLogo{
+  height: 100%;
+  width: 35%;
+  margin-left: 50%;
+}
+
+.logo{
+  height: 110%;
+  filter: drop-shadow(5px 5px 5px rgb(11, 11, 11));
+
+}
+
+.contatos{
+  display: flex;
+  flex-direction: row;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 15%;
+  font-size: 1.5vw;
+  justify-content: space-around;
+  align-items: flex-end;
+  color: rgb(235, 243, 255);
+  font-weight: bold;
+}
+
+.mainDex{
+  background-color: rgb(35, 33, 33);
+  width: 100%;
+  height: 93%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.pokedex{
+  display: flex;
+  background-color: red;
+  height: 80%;
+  width: 30%;
+  margin-top: 5%;
+  border-radius: 15px;
+  filter: drop-shadow( 10px 5px 5px rgb(11, 11, 11));
+  flex-direction: column;
+  align-items: center;
+}
+
+.headerPokedex{
+  width: 100%;
+  height: 15%;
+  display: flex;
+}
+
+.relevo{
+  background-color: rgb(118, 20, 20);
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 66%, 60% 66%, 45% 100%, 0 100%);
+  border-radius: 15px 15px 0 0;
+}
+
+.nomePokemon{
+  width: 100%;
+  height: 20%;
+  text-align: end ;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.nomePokemon span{
+  margin-right: 3%;
+  padding: 1%;
+  font-weight: bold;
+  background-color: rgba(152, 152, 152, 0.769);
+  margin-bottom: 1%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.imagemPokemon{
+  margin-top: 15%;
+  width: 60%;
+  height: 60%;
+}
+
+.paisagem{
+  background-image: url('./imagens/paisagem.jpg');
+  width: 80%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-color: #191717;
+  border-style: solid;
+  box-shadow:inset 3px 5px 4px rgba(0, 0, 0, 0.75);
+ 
+}
+
+.fundoPaisagem{
+  width: 100%;
+  height: 100%; 
+}
+
+
+.tela{
+  background-color: grey;
+  width: 90%;
+  height: 50%;
+  margin-top: 10%;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 10% 100%, 0 85%);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.footerPokedex{ 
+  margin-top: 5%;
+  width: 80%;
+  height:30%;
+  display: flex;
+  flex-direction: column; 
+   
+}
+
+.srcPokemon{
+  padding: 10px;
+  font-size: 17px;
+  border-width: 2px;
+  border-color: #151515;
+  background-color: rgb(183, 178, 178);
+  color: #191717;
+  border-style: solid;
+  border-radius: 24px;
+  box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.75);
+  font-weight: bold;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconSrc{
+    width: 100%;
+    height: 100%;
+    font-size: 3vw;
+    color: rgb(64, 62, 62);
+}
+
+.button{
+  width: 100%;
+  height: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10%;
+}
+
+.buttonNP{
+  background-color: rgb(41, 39, 39);
+  width: 30%;  
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border-color: #191717;
+  border-style: solid;
+  box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.75);
+}
+
+.iconButton{
+  font-size: 2.0vw;
+  color: grey;
+
+    
+}
+
+.buttonNP a{
+  color: grey;
+  width: 100%;
+}
+
+/* Aba de Informações*/
+
+.pokedexInf{
+  display: flex;
+  background-color: red;
+  height: 70%;
+  width: 25%;
+  margin-top: 9%;
+  filter: drop-shadow( 10px 5px 5px rgb(11, 11, 11));
+  flex-direction: column;
+  align-items: center;
+  clip-path: polygon(0 100%, 100% 100%, 100% 6%, 60% 6%, 40% 0, 0 0);
+  box-shadow: inset 3px 0 0 0;
+}
+
+.dobradissa{
+  background-color: rgb(122, 10, 10);
+  width: 10%;
+  height: 10%;
+  margin-top: 20%;
+  margin-right: 105%;
+  border-radius: 10px;
+  position: absolute;
+}
+
+.dobradissa2{
+  background-color: rgb(122, 10, 10);
+  width: 10%;
+  height: 10%;
+  margin-top: 80%;
+  margin-right: 105%;
+  border-radius: 10px;
+  position: absolute;
+}
+
+.telaInf{
+  background-color: rgb(167, 172, 167);
+  width: 80%;
+  height: 80%;
+  margin-top: 20%;
+  display: flex;
+  flex-direction: column;
+  border: 1px black;
+  border-style: solid;
+}
+
+.typeInf{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.typeInf span{
+  padding: 1%;
+  font-size: large;
+  font-weight: 600;
+}
+
+
+.nomeInf{
+  width: 100%;
+  height: 12.5%;
+}
+
+.tipoInf{
+  width: 100%;
+  height: 12.5%;
+}
+
+.evoluçãoInf{
+  width: 100%;
+  height: 20%;
+}
+
+.dadosInf{
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;  
+}
+
+
+
+.regiãoInf{
+  width: 100%;
+  height: 15%;
+}
+
+.telaInfButton{
+  background-color: black;
+  width: 100%;
+  height: 10%;
+}
